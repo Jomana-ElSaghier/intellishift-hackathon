@@ -419,6 +419,7 @@ def get_location_lookup(connection):
 
 def load_products(data, connection):
 
+    
     print_section("Loading Products")
 
     sub_lookup = get_subcategory_lookup(connection)
